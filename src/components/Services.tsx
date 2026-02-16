@@ -92,7 +92,7 @@ const Services = () => {
               <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple">Full-Stack Expertise</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight mb-4 md:mb-6 text-foreground">
-              Our <span className="gradient-text">Studio Services</span>
+              Our <span className="gradient-text">Services</span>
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
               We architect high-performance digital ecosystems with surgical precision. 

@@ -192,16 +192,16 @@ const TechStack = () => {
       
       <div className="container mx-auto px-6 md:px-12 lg:px-20 mb-10 max-w-[1440px] relative z-20">
         <div className="max-w-2xl mb-12">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-connectic-purple/10 border border-connectic-purple/20 mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-connectic-purple/10 border border-connectic-purple/20 mb-6 font-handwritten text-xl text-connectic-purple">
             <span className="w-2 h-2 rounded-full bg-connectic-purple animate-pulse" />
-            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple">Industry Standards</span>
+            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple font-sans">Our Toolkit</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight mb-6 text-foreground">
-            Our <span className="gradient-text">Powerhouse Stack</span>
+            Tools we <span className="gradient-text">mastered</span>
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            We architect solutions using the world's most advanced and reliable technologies, 
-            ensuring your business stays ahead of the curve.
+          <p className="text-lg text-muted-foreground leading-relaxed font-light">
+            We use a curated selection of modern technologies to build stable, 
+            performant, and beautiful digital products for our clients.
           </p>
         </div>
       </div>

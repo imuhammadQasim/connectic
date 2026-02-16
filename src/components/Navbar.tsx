@@ -33,18 +33,17 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Architectural Logo */}
           <a href="#" className="flex items-center gap-3 group relative">
-            <div className={`w-10 h-10 rounded-xl bg-gradient-to-br from-connectic-purple to-connectic-pink p-[1px] shadow-[0_0_15px_rgba(139,92,246,0.3)] group-hover:shadow-[0_0_25px_rgba(139,92,246,0.5)] transition-all duration-500 ${scrolled || isOpen ? "scale-90" : "scale-100"}`}>
-              <div className="w-full h-full rounded-[9px] bg-zinc-900 flex items-center justify-center">
-                <span className="text-white font-black text-lg drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">C</span>
+            <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br from-connectic-purple to-connectic-pink p-[1px] shadow-[0_0_20px_rgba(139,92,246,0.3)] group-hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] transition-all duration-500 ${scrolled || isOpen ? "scale-90" : "scale-100"}`}>
+              <div className="w-full h-full rounded-[15px] bg-zinc-950 flex items-center justify-center">
+                <span className="text-white font-black text-xl tracking-tighter">M</span>
               </div>
             </div>
             <div className="flex flex-col">
-              <span className={`text-xl font-black tracking-tight transition-colors drop-shadow-sm ${
-                scrolled || isOpen ? "text-white text-lg" : "text-foreground text-xl"
+              <span className={`text-2xl font-black tracking-tight transition-colors drop-shadow-sm ${
+                scrolled || isOpen ? "text-white text-xl" : "text-foreground text-2xl"
               } group-hover:text-connectic-purple`}>
-                Connectic
+                mdev.com
               </span>
-              <span className="text-[8px] uppercase tracking-[0.4em] text-connectic-purple/80 font-bold -mt-1 group-hover:text-connectic-pink transition-colors">Studio</span>
             </div>
             {/* Ambient Glow behind logo when scrolled */}
             {scrolled && (

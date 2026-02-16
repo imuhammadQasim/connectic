@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import ConnectivityGraphic from "./ConnectivityGraphic";
+import HandcraftedShowcase from "./HandcraftedShowcase";
 import { ArrowRight, Sparkles, ExternalLink } from "lucide-react";
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="animate-slide-up">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-connectic-purple/10 border border-connectic-purple/20 mb-6 group cursor-default shadow-sm hover:shadow-connectic-purple/10 transition-all duration-500">
               <span className="w-2 h-2 rounded-full bg-connectic-purple animate-pulse" />
-              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple">AI-Powered Digital Solutions</span>
+              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple">Human-Crafted Digital Solutions</span>
             </div>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15] mb-6 md:mb-8 tracking-tight">
@@ -28,13 +28,19 @@ const Hero = () => {
               <span className="relative inline-block">
                 <span className="gradient-text animate-gradient-shift">Digital Future</span>
                 <div className="absolute -bottom-2 left-0 w-full h-2 bg-gradient-to-r from-connectic-purple to-connectic-pink blur-md opacity-30 dark:opacity-50" />
+                <span className="absolute -top-20 -right-20 hidden lg:block font-handwritten text-connectic-purple text-2xl rotate-12 animate-float">
+                  Crafted with passion
+                  <svg className="w-12 h-12 -mt-2 -ml-4 rotate-12 text-connectic-purple/40" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M10 50 Q 50 10 90 50" strokeLinecap="round" markerEnd="url(#arrowhead)"/>
+                  </svg>
+                </span>
               </span>
               <br />
               <span className="text-foreground drop-shadow-2xl">AI & Automation</span>
             </h1>
             
             <p className="text-lg sm:text-xl md:text-lg text-muted-foreground mb-8 md:mb-10 max-w-xl leading-relaxed font-light tracking-wide">
-              Empowering global brands with <span className="text-foreground font-medium italic underline decoration-connectic-purple/50 underline-offset-4">intelligent ecosystems</span>. 
+              Empowering global brands with <span className="text-foreground font-medium italic underline decoration-connectic-purple/50 underline-offset-4">hand-crafted ecosystems</span>. 
               We don't just build websites; we engineer high-performance digital legacies.
             </p>
             
@@ -106,11 +112,17 @@ const Hero = () => {
           <div className="hidden lg:block relative lg:h-[700px] animate-fade-in group md:mt-0 mt-12">
             <div className="absolute -inset-10 bg-connectic-purple/10 blur-[100px] group-hover:bg-connectic-purple/20 transition-all duration-1000" />
             <div className="relative h-full glass-card rounded-[3rem] overflow-hidden border border-foreground/10 shadow-[0_0_80px_-20px_rgba(155,135,245,0.2)] group-hover:border-foreground/20 transition-all duration-700 active:scale-[0.99]">
-              <ConnectivityGraphic />
+              <HandcraftedShowcase />
               
               {/* Floating Meta Details Overlay */}
               <div className="absolute top-6 right-6 px-4 py-2 bg-background/50 backdrop-blur-xl border border-foreground/10 rounded-full animate-float opacity-80 shadow-lg">
-                <span className="text-[10px] font-bold text-foreground tracking-widest uppercase italic">Engineered Excellence</span>
+                <span className="text-[10px] font-bold text-foreground tracking-widest uppercase italic font-sans italic">Custom Crafted</span>
+              </div>
+              
+              {/* Hand-drawn annotation */}
+              <div className="absolute bottom-8 left-8 hidden lg:flex items-center gap-2 font-handwritten text-xl text-white/70">
+                <span>Tailored for you</span>
+                <span className="text-2xl mt-1">✨</span>
               </div>
             </div>
           </div>

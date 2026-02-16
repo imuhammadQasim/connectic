@@ -52,14 +52,14 @@ const Portfolio = () => {
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-connectic-purple/10 border border-connectic-purple/20 mb-6 group cursor-default shadow-sm hover:shadow-connectic-purple/10 transition-all duration-500">
               <span className="w-2 h-2 rounded-full bg-connectic-purple animate-pulse" />
-              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple">Success Stories</span>
+              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple">Our Journey</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight mb-4 md:mb-6 text-foreground">
-              Featured <span className="gradient-text">Masterpieces</span>
+              Crafting <span className="gradient-text">Excellence</span>
             </h2>
-            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              We don't just deliver code; we deliver transformative results. 
-              Explore our laboratory of high-performance digital solutions.
+            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed font-light">
+              We don't just write code; we build digital experiences that matter. 
+              Here is a look at some of the projects we've poured our hearts into.
             </p>
           </div>
           

@@ -17,29 +17,28 @@ const Footer = () => {
             <div className="flex items-center gap-3 group cursor-pointer">
               <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-connectic-purple to-connectic-pink p-[1px] shadow-[0_0_20px_rgba(139,92,246,0.3)] group-hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] transition-all duration-500">
                 <div className="w-full h-full rounded-[15px] bg-zinc-950 flex items-center justify-center">
-                  <span className="text-white font-black text-xl tracking-tighter">C</span>
+                  <span className="text-white font-black text-xl tracking-tighter">M</span>
                 </div>
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-black tracking-tight text-white">Connectic</span>
-                <span className="text-[10px] uppercase tracking-[0.3em] text-connectic-purple font-bold">Studio</span>
+                <span className="text-2xl font-black tracking-tight text-white">mdev.com</span>
               </div>
             </div>
 
             <p className="text-zinc-400 leading-relaxed text-sm max-w-sm">
-              An elite architectural studio specializing in high-fidelity digital products, 
-              AI-driven automation, and state-of-the-art engineering. We turn complex 
-              visions into surgical-grade reality.
+              A boutique digital studio focused on high-fidelity products, 
+              AI-driven automation, and premium engineering. We turn ambitious 
+              visions into beautiful digital realities.
             </p>
 
             <div className="space-y-4">
-              <a href="mailto:mq80140@gmail.com" className="flex items-center gap-4 group">
+              <a href="mailto:muhammad.qasim.dev07@gmail.com" className="flex items-center gap-4 group">
                 <div className="w-10 h-10 rounded-full bg-zinc-900 border border-white/5 flex items-center justify-center group-hover:bg-connectic-purple/10 group-hover:border-connectic-purple/50 transition-all duration-300">
                   <Mail className="w-4 h-4 text-zinc-400 group-hover:text-connectic-purple" />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-[10px] uppercase tracking-widest text-zinc-500 font-bold group-hover:text-connectic-purple transition-colors">Digital Correspondence</span>
-                  <span className="text-sm font-medium text-white">mq80140@gmail.com</span>
+                  <span className="text-[10px] uppercase tracking-widest text-zinc-500 font-bold group-hover:text-connectic-purple transition-colors">Say Hello</span>
+                  <span className="text-sm font-medium text-white">muhammad.qasim.dev07@gmail.com</span>
                 </div>
               </a>
             </div>
@@ -64,7 +63,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-8 border-l-2 border-connectic-pink pl-4">Ecosystem</h4>
             <ul className="space-y-4">
-              {['Project Genesis', 'The Laboratory', 'Security Matrix', 'Brand Ethics'].map((item) => (
+              {['Project Genesis', 'Software Development', 'Security Matrix', 'Brand Ethics'].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-sm text-zinc-400 hover:text-white flex items-center gap-2 group transition-all duration-300">
                     <span className="w-0 group-hover:w-4 h-[1px] bg-connectic-pink transition-all duration-300" />
@@ -77,7 +76,7 @@ const Footer = () => {
 
           {/* Hire Us Hub - 4 Columns */}
           <div className="lg:col-span-4 flex flex-col gap-8">
-            <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-white/40 border-l-2 border-emerald-500 pl-4">Hiring Hub</h4>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-white/40 border-l-2 border-emerald-500 pl-4">Work with us</h4>
             
             <div className="grid grid-cols-1 gap-4">
               <a 
@@ -138,18 +137,18 @@ const Footer = () => {
           
           <div className="flex flex-col md:flex-row items-center gap-8 relative z-10">
             <p className="text-zinc-500 text-[10px] font-black uppercase tracking-[0.4em]">
-              © {currentYear} Connectic Studio <span className="text-white/20 mx-2">|</span> All Systems Operational
+              © {currentYear} mdev.com <span className="text-white/20 mx-2">|</span> All Systems Operational
             </p>
             <div className="flex items-center gap-6 text-[10px] font-black uppercase tracking-widest text-zinc-500">
-              <a href="#" className="hover:text-white transition-colors hover:cursor-pointer">Privacy Protocol</a>
-              <a href="#" className="hover:text-white transition-colors hover:cursor-pointer">Terms of Engagement</a>
+              <a href="#" className="hover:text-white transition-colors hover:cursor-pointer">Privacy Policy</a>
+              <a href="#" className="hover:text-white transition-colors hover:cursor-pointer">Terms of Service</a>
             </div>
           </div>
 
           <div className="flex items-center gap-3 py-2 px-4 rounded-full bg-zinc-900/50 border border-white/5 relative z-10">
             <span className="w-2 h-2 rounded-full bg-connectic-purple animate-pulse" />
             <span className="text-[10px] font-black uppercase tracking-widest text-zinc-300">
-              Built by <span className="text-white">Muhammad</span> <span className="text-zinc-500">Laboratory 01</span>
+              Built by <span className="text-white">Muhammad</span> <span className="text-zinc-500">mdev.com Software Company</span>
             </span>
           </div>
         </div>

@@ -73,16 +73,16 @@ const CEOSpotlight = () => {
                 </p>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mb-10">
-                  Under Muhammad's leadership, Connectic Studio has evolved into a powerhouse laboratory 
+                  Under Muhammad's leadership, mdev.com has evolved into a powerhouse laboratory 
                   for AI, high-performance web development, and intelligent automation. We bridge the gap 
                   between raw technology and surgical business execution.
                 </p>
 
                 {/* Signature & Badges - Elite Polish */}
                 <div className="flex flex-wrap items-center gap-12 pt-8">
-                  <div className="space-y-2 group/sig cursor-default">
-                    <div className="text-3xl font-serif italic text-foreground/60 transition-colors duration-500 group-hover/sig:text-foreground">Muhammad Q.</div>
-                    <div className="h-[2px] w-full bg-gradient-to-r from-connectic-purple/40 to-transparent transition-all duration-500 group-hover/sig:from-connectic-purple" />
+                  <div className="space-y-1 group/sig cursor-default">
+                    <div className="text-4xl font-handwritten text-foreground/80 transition-colors duration-500 group-hover/sig:text-foreground">Muhammad Qasim</div>
+                    <div className="h-[2px] w-24 bg-gradient-to-r from-connectic-purple/60 to-transparent transition-all duration-500 group-hover/sig:w-full" />
                   </div>
                   
                   <div className="flex items-center gap-6">

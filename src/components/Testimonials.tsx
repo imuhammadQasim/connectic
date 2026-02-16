@@ -5,7 +5,7 @@ const testimonialsRow1 = [
   {
     name: "Jonathan Reeves",
     role: "CEO, TechFlow Systems",
-    content: "Connectic Studio transformed our legacy architecture into a high-performance AI powerhouse. Their surgical precision in delivery is unmatched in the industry.",
+    content: "mdev.com transformed our legacy architecture into a high-performance digital powerhouse. Their attention to detail in delivery is unmatched in the industry.",
     avatar: "/testimonials/client_jonathan_reeves_1768741597963.png",
     date: "Oct 2025",
     stack: ["AI Architecture", "Next.js"],
@@ -35,7 +35,7 @@ const testimonialsRow2 = [
   {
     name: "Elena Rodriguez",
     role: "CTO, NexaCloud",
-    content: "Building an enterprise-scale MERN application with Connectic was the best decision we made. Their cloud infrastructure architecture is future-proof.",
+    content: "Building an enterprise-scale MERN application with mdev.com was the best decision we made. Their cloud infrastructure architecture is future-proof.",
     avatar: "/testimonials/client_elena_rodriguez_1768741668085.png",
     date: "Jan 2026",
     stack: ["Kubernetes", "AWS"],
@@ -124,14 +124,14 @@ const Testimonials = () => {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-connectic-purple/10 border border-connectic-purple/20 mb-6 group cursor-default shadow-sm hover:shadow-connectic-purple/10 transition-all duration-500">
             <span className="w-2 h-2 rounded-full bg-connectic-purple animate-pulse" />
-            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple">Social Proof Feed</span>
+            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-connectic-purple">Kind Words</span>
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight mb-6 text-foreground">
-            The <span className="gradient-text">Studio Feedback</span>
+            What <span className="gradient-text">Clients Say</span>
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-            Surgical precision is more than a promise. It's the standard recorded by 
-            industry leaders who have partnered with our laboratory.
+          <p className="text-lg text-muted-foreground leading-relaxed max-w-xl font-light">
+            Every project is a partnership. We take pride in the relationships we build 
+            and the value we deliver to businesses around the world.
           </p>
         </div>
       </div>
